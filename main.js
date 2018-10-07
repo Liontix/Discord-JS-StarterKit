@@ -110,6 +110,8 @@ client.on('message', (msg) => {
     if(!reason) reason = "No reason provided";//if the reason for the kick = null this will be the reason for the kick 
    
    });
+   //for the the bot loggin token
+   client.login(botconfig.token); //this check your token from the json file (botconfig.json)
   
   
   
